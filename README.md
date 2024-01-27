@@ -3,7 +3,8 @@ It's Application of Banking System
 <br>
 
 <h2>Descrption About the Project:- </h2>
-Banking Appl Class:
+<h3>Banking Appl Class:</h3>
+<br>
  It's  main application class "BankingAppl", which serves as the entry point and orchestrates various user interactions within the banking management system. It includes functionalities such as user registration, login, and managing bank accounts. Here's a brief overview of the main functionalities in the BankingAppl class:-
 
 1.  Database Connection:-
@@ -29,7 +30,8 @@ Banking Appl Class:
   It's crucial to ensure that the program handles user inputs effectively, manages exceptions appropriately, and maintains the security of sensitive user information throughout the interactions.
 
 
-User Class:-
+<h3>User Class:-</h3>
+<br>
  The  User class in a banking management application. This class contains methods for user registration, login, and checking if a user exists in the database. The code uses JDBC to interact with the database and handle user-related operations.
 
 Here's a brief overview of the functionality provided in the User class:
@@ -52,7 +54,7 @@ Here's a brief overview of the functionality provided in the User class:
 Overall, the User class provides essential functionality for user management within a banking application. It handles user registration, login authentication, and user existence checks via interaction with the underlying database.
 
 
-AcccountsClass:-
+<h3>AcccountsClass:-</h3><br>
  It is a part of a Java program for a bank account management system Application. It includes a class called  Acccounts  with several methods for account management. Here's a breakdown of the main elements:
 
 1. User OpenAccount:- 
@@ -73,7 +75,7 @@ The class uses JDBC (Java Database Connectivity) to interact with the database, 
 Overall, this Java class provides functionality to open new accounts, retrieve account numbers, and check for existing accounts in a bank management system.  
 
 
-Account Manager Class:-
+<h3>Account Manager Class:-</h3><br>
  It is responsible for managing bank account transactions such as crediting, debiting, transferring money between accounts, and checking the account balance.
 
 The class contains methods for various banking operations:
