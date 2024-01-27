@@ -57,17 +57,17 @@ Overall, the User class provides essential functionality for user management wit
 <h3>AcccountsClass:-</h3><br>
  It is a part of a Java program for a bank account management system Application. It includes a class called  Acccounts  with several methods for account management. Here's a breakdown of the main elements:
 
-1. User OpenAccount:- 
-   -The open_account method takes user input for full name, initial balance, and security pin to create a new account in the database. 
+1. User OpenAccount:- <br>
+   -The open_account method takes user input for full name, initial balance, and security pin to create a new account in the database. <br>
    -It checks if the account already exists for the given email and, if not, generates a unique account number and inserts the account details into the database.
 
-2.  For Get Account Number:-
+2.  For Get Account Number:-<br>
    -The getAccount_number method retrieves the account number associated with a given email from the database.
 
-3. For Generate Account Number:-
+3. For Generate Account Number:-<br>
    -The generateAccountNumber method generates a unique account number for a new account by querying the database for the last account number and incrementing it.
 
-4. Exist Account:-
+4. Exist Account:-<br>
    -The account_exist method checks if an account already exists for the given email in the database.
 
 The class uses JDBC (Java Database Connectivity) to interact with the database, and it takes a Connection and Scanner object as parameters in the constructor for database connection and user input handling.
@@ -79,20 +79,20 @@ Overall, this Java class provides functionality to open new accounts, retrieve a
  It is responsible for managing bank account transactions such as crediting, debiting, transferring money between accounts, and checking the account balance.
 
 The class contains methods for various banking operations:
-1.  credit_money:- 
-   -This method allows the user to deposit money into their account. It prompts the user to enter the amount to be credited and the security pin. 
+1.  credit_money:- <br>
+   -This method allows the user to deposit money into their account. It prompts the user to enter the amount to be credited and the security pin. <br>
    -It then verifies the account and pin, and if successful, updates the account balance by the credited amount.
 
-2.  dabit_money:-
-   -This method facilitates the withdrawal of money from the account. 
+2.  dabit_money:-<br>
+   -This method facilitates the withdrawal of money from the account. <br>
    -It asks for the amount to be debited and the security pin, verifies the account and pin, checks for sufficient balance, and updates the account balance if the conditions are met.
 
-3.  transfer_money:-
-   -This method enables the transfer of money from one account to another. It prompts the user to enter the receiver's account number, the amount to be transferred, and the security pin. 
+3.  transfer_money:-<br>
+   -This method enables the transfer of money from one account to another. It prompts the user to enter the receiver's account number, the amount to be transferred, and the security pin. <br>
    -The method then verifies the sender's account and pin, checks for sufficient balance, and if all conditions are met, transfers the specified amount from the sender's account to the receiver's account.
 
-4.  getBalance:- 
-   -This method allows the user to check the account balance.
+4.  getBalance:- <br>
+   -This method allows the user to check the account balance.<br>
    - It prompts the user to enter the security pin, verifies the account and pin, and if successful, retrieves and displays the account balance.
 
 The class uses SQL queries to interact with the database for account verification and balance updates. It utilizes prepared statements to prevent SQL injection and uses transaction management (commit and rollback) to ensure the atomicity of transactions.
