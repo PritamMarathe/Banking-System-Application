@@ -2,7 +2,7 @@
 It's Application of Banking System
 <br>
 
-<h2>Descrption About the Project:- </h2>
+<h2>Description About the Project:- </h2>
 <h3>Banking Appl Class:</h3>
 <br>
  It's  main application class "BankingAppl", which serves as the entry point and orchestrates various user interactions within the banking management system. It includes functionalities such as user registration, login, and managing bank accounts. Here's a brief overview of the main functionalities in the BankingAppl class:-
