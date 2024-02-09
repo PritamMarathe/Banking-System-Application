@@ -1,5 +1,5 @@
 # Banking-System-Application
-It's Application of Banking System
+It's Application of Banking System Using Core Java, MYSQL, JDBC.
 <br>
 
 <h2>Description About the Project :- </h2>
